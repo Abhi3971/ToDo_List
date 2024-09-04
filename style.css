@@ -46,3 +46,19 @@ body,html{
     left: 200px;
     top: 6px;
 }
+
+@media (min-width : 200px) and (max-width : 800px){
+    .btn{
+        margin-top: 30px;
+    }
+    .taskbar ol li{
+        position: relative;
+        right: 80px;
+        font-size: larger;
+    }
+    .taskbar ol li button{
+        position: absolute;
+        left: 100px;
+        top: 10px;
+    }
+}
