@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+body,html{
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    height: 100%;
+    width: 100%;
+}
+.taskbar{
+    display: flex;
+    justify-content: center;
+}
+.taskbar ol li{
+    position: relative;
+    top: 40px;
+    padding: 20px 10px;
+    right: 200px;
+    font-size: x-large;
+}
+.search input{
+    background-color: aliceblue;
+    color: black;
+}
+.search label{
+    color: black;
+}
+.search button{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 1px solid #000;
+}
+.Btn{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border: 1px solid #000;
+    height: 44px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.taskbar ol li button{
+    position: absolute;
+    left: 200px;
+    top: 6px;
+}
